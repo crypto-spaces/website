@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*自定义字体*/
+@font-face {
+    font-family: 'dgo';
+    src: url('./assets/fonts/DelaGothicOne-Regular-2.ttf') format('truetype');
+}
+
+
+#app {
+    background: linear-gradient(151deg, #000000 0%, #000711 100%);
+}
+
+.cs-blue {
+    background: linear-gradient(180deg, #02D1FF 0%, #006DFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
